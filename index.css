@@ -180,6 +180,21 @@ p{
 a{
        text-decoration: none;
 }
+.mybody
+      {
+          background-color: #b0c096cf;
+          color:black;
+      }
+
+#demo
+    {
+        margin-left:90%;
+        margin-top:1%;
+    }
+.cg
+    {
+        background-color: #69831ac2;
+    }
    
 
 

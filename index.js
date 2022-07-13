@@ -17,3 +17,21 @@ function demoExternal()
         alert('Try!!sorry you can\'t logged out' )
     }
 }
+function changeMode()
+        {   
+            let dash=document.body;
+            
+            
+            dash.classList.toggle('mybody')
+        }
+function myFunction()
+{   
+          // let dash1=document.nav;
+          // dash1.classList.toggle('cg')
+           let cdm=Array.from(document.getElementsByClassName("nav1"));
+           console.log(cdm)
+           cdm.map(elements=>elements.classList.toggle('cg'))
+
+            
+            
+}
